@@ -8,6 +8,9 @@
     display: none;
   }
 
+*::-webkit-scrollbar {
+    width: 0;
+}
 
 .w-safearea{
     width: 322px !important;
