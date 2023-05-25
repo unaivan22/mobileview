@@ -4,7 +4,9 @@ import Phone from '../../utils/phone/Phone'
 export default function Mobileviewone() {
   return (
     <div>
-      <Phone />
+      <Phone>
+        <h1>HAHHAHHAHAHAH</h1>
+      </Phone>
     </div>
   )
 }
