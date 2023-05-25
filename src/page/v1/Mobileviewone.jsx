@@ -23,14 +23,14 @@ export default function Mobileviewone() {
 
               <section className='mt-6'>
                 <h1 className='font-bold text-lg mx-4 text-zinc-800'>Channel</h1>
-                <div className='w-safearea overflow-x-scroll mobileXscroll'>
+                <div className='w-safearea overflow-x-scroll mobileXscroll scrollerX'>
                   <V1HotNews />
                 </div>
               </section>
 
               <section className='mt-6'>
                 <h1 className='font-bold text-lg mx-4 text-zinc-800'>Popular</h1>
-                <div className='w-safearea overflow-x-scroll mobileXscroll'>
+                <div className='w-safearea overflow-x-scroll mobileXscroll scrollerX'>
                   <V1PopularNews />
                 </div>
               </section>
