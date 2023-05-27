@@ -6,7 +6,7 @@ export default function NotFound() {
   const navigate = useNavigate();
   return (
     <Phone>
-        <div className='grid h-screen place-items-center not-found'>
+        <div className='grid h-[712px] place-items-center not-found'>
             <div className='text-center'>
                 <div className='mb-8'>
                     <div className='flex items-center gap-x-2'>

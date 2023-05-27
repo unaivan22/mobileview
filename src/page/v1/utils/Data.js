@@ -15,8 +15,8 @@ export const template = [{
     type: 'hotnews'
   },{
     id: 4,
-    image: 'https://www.logo.wine/a/logo/Nat_Geo_Wild/Nat_Geo_Wild-Logo.wine.svg',
-    link: '/natgeowild',
+    image: 'https://logodownload.org/wp-content/uploads/2020/06/sky-sports-logo-0-1.png',
+    link: '/skysport',
     type: 'hotnews'
   },{
     id: 5,
@@ -25,13 +25,13 @@ export const template = [{
     type: 'hotnews'
   },{
     id: 6,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png',
-    link: '/googlenews',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/2048px-Fox_News_Channel_logo.svg.png',
+    link: '/foxnews',
     type: 'hotnews'
   },{
     id: 7,
-    image: 'https://seeklogo.com/images/B/bing-logo-708D786F19-seeklogo.com.png',
-    link: '/bingnews',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Associated_Press_logo_2012.svg/640px-Associated_Press_logo_2012.svg.png',
+    link: '/apnews',
     type: 'hotnews'
   }
 ];
@@ -61,6 +61,44 @@ export const popularnews = [{
     authoer: 'Rob Dawson',
     date: 'May 22, 2023'
   }
+];
+
+export const hotteam = [{
+  id: 1,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/barcelona.vresize.72.72.medium.0.png',
+  link: '/sport-news/real-madrid',
+  type: 'hotteam'
+},{
+  id: 2,
+  image: 'https://assets.stickpng.com/images/584a9b47b080d7616d298778.png',
+  link: '/fcb',
+  type: 'hotteam'
+},{
+  id: 3,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/manchester-city.vresize.72.72.medium.0.png',
+  link: '/cnn',
+  type: 'hotteam'
+},{
+  id: 4,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/arsenal.vresize.72.72.medium.0.png',
+  link: '/skysport',
+  type: 'hotteam'
+},{
+  id: 5,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/manchester-united.vresize.72.72.medium.0.png',
+  link: '/yahoonews',
+  type: 'hotteam'
+},{
+  id: 6,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/newcastle-united.vresize.72.72.medium.0.png',
+  link: '/foxnews',
+  type: 'hotteam'
+},{
+  id: 7,
+  image: 'https://b.fssta.com/uploads/application/soccer/team-logos/liverpool.vresize.72.72.medium.0.png',
+  link: '/apnews',
+  type: 'hotteam'
+}
 ];
 
 export const recentnews = [{
@@ -178,5 +216,26 @@ export const authornews = [{
   describe: 'lorem ',
   type: 'author',
   name: 'Helen Noah'
+}
+];
+
+export const publicationnews = [{
+  id: 1,
+  topic: "Sport",
+  type: 'publication',
+  total: '12K',
+  link: 'sport'
+},{
+  id: 2,
+  topic: "Soccer",
+  type: 'publication',
+  total: '12K',
+  link: 'soccer'
+},{
+  id: 3,
+  topic: "Golf",
+  type: 'publication',
+  total: '12K',
+  link: 'golf'
 }
 ];

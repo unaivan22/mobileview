@@ -14,6 +14,9 @@ export default function AppBarDetail() {
           </label>
         </div>
       </div>
+      <div className="navbar-center">
+        <h3 className="normal-case text-md font-semibold text-zinc-700">Sport</h3>
+      </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">

@@ -10,7 +10,8 @@ export default function V1Detail() {
         <AnimatedPage>
             <AppBarDetail />
             <div className='mx-4 grid grid-cols-1 overflow-y-scroll h-[712px]'>
-                <h1 className='text-zinc-900 font-bold text-xl leading-snug mb-8'>Richarlison, Antony, Brenden Aaronson & the 21 most disappointing Premier League signings of the 2022-23 season - ranked</h1>
+                <h1 className='text-zinc-900 font-bold text-xl leading-snug mb-2'>Richarlison, Antony, Brenden Aaronson & the 21 most disappointing Premier League signings of the 2022-23 season - ranked</h1>
+                <p className='mb-8 font-light text-zinc-400 text-xs'>Khrishan Davis - <span>May 24, 2023 </span></p>
                 <img className='rounded-xl mb-8' src='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc535ac4b92498d18/646ca306291f1fe7a0dcf18f/EPL_Most_Disappointing_Signing.jpg?auto=webp&format=pjpg&width=640&quality=60'/>
 
                 <section className='space-y-2 mb-8'>

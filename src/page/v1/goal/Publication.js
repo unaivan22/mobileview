@@ -1,20 +1,22 @@
 import React from 'react'
-import { recentnews } from '../utils/Data';
+import { publicationnews } from '../utils/Data';
 import {Link} from "react-router-dom";
 
 export default function Publication() {
-    const recents = recentnews.filter(getRecentnews =>
-        getRecentnews.type === 'recent'
+    const publications = publicationnews.filter(getPublicationnews =>
+        getPublicationnews.type === 'publication'
       );
-      const listItems = recents.map(getRecentnews =>
-        <Link to={getRecentnews.link}  key={getRecentnews.id}  className='grid grid-cols-3 gap-x-4 mb-6'>
-            <img className='aspect-square object-cover rounded-xl col-span-1' src={getRecentnews.image} />
-            <div className='col-span-2'>
-              <p className='line-clamp-2 font-bold text-zinc-900'>{getRecentnews.title}</p>
-              <p className='text-zinc-400 text-xs mt-1'>{getRecentnews.authoer} - <span>{getRecentnews.date}</span></p>
+      const listItems = publications.map(getPublicationnews =>
+        <Link to={getPublicationnews.link}  key={getPublicationnews.id}  className='flex flex-row justify-between mb-6 mx-6 items-center'>
+            <div>
+              <p className='line-clamp-2 font-normal text-sm text-zinc-900'>{getPublicationnews.topic} <span><div class="badge text-xs text-zinc-700 bg-zinc-200 border-0">{getPublicationnews.total}</div></span></p>
             </div>
-            
+            <div >
+              <button class="font-base text-xs text-zinc-700 bg-zinc-200 hover:bg-zinc-800 hover:text-zinc-200 py-2 px-4 rounded-full w-fit">
+                Follow
+              </button>
+            </div>
         </Link>
       );
-      return <div className='h-[712px] overflow-y-scroll overflow-x-hidden'>{listItems}</div>;
+      return <div className='h-[712px] overflow-y-scroll overflow-x-hidden w-safearea'>{listItems}</div>;
 }
