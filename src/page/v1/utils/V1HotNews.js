@@ -7,7 +7,7 @@ export default function V1HotNews() {
         getTemplate.type === 'hotnews'
       );
       const listItems = hotnews.map(getTemplate =>
-        <Link to={getTemplate.link} key={getTemplate.id}  className='w-12 h-12 rounded-full bg-zinc-100 flex items-center place-items-center justify-center ring-1 ring-gray-400'>
+        <Link to={getTemplate.link} key={getTemplate.id}  className='w-12 h-12 rounded-full bg-zinc-100 flex items-center place-items-center justify-center ring-1 ring-gray-300'>
             <img className='w-8 h-8 object-contain' src={getTemplate.image} />
         </Link>
       );

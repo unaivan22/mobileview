@@ -20,7 +20,9 @@ body {
     width: 322px !important;
 }
 
-
+.pointer {
+    cursor: pointer !important;
+}
 
 .default-bg{
     background: url('https://cdn.neowin.com/news/images/galleries/4685/1654590747_macos_ventura_wallpaper_light.jpg');

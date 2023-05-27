@@ -1,7 +1,7 @@
 export const template = [{
     id: 1,
-    image: 'https://upload.wikimedia.org/wikipedia/id/thumb/8/8b/Cnn.svg/1200px-Cnn.svg.png',
-    link: '/cnn',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/320px-Goal-com_Logo.svg.png',
+    link: '/sport-news/goal',
     type: 'hotnews'
   },{
     id: 2,
@@ -10,8 +10,8 @@ export const template = [{
     type: 'hotnews'
   },{
     id: 3,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/320px-Goal-com_Logo.svg.png',
-    link: '/v1/goal',
+    image: 'https://upload.wikimedia.org/wikipedia/id/thumb/8/8b/Cnn.svg/1200px-Cnn.svg.png',
+    link: '/cnn',
     type: 'hotnews'
   },{
     id: 4,
@@ -67,7 +67,7 @@ export const recentnews = [{
     id: 1,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc535ac4b92498d18/646ca306291f1fe7a0dcf18f/EPL_Most_Disappointing_Signing.jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Richarlison, Antony, Brenden Aaronson & the 21 most disappointing Premier League signings of the 2022-23 season - ranked',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Krishan Davis',
     date: 'May 24, 2023'
@@ -75,7 +75,7 @@ export const recentnews = [{
     id: 2,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt449c6a9d2bc0ed5c/646e6b4a7c4edf1cb12f5b34/GOAL_-_Blank_WEB_-_Facebook_-_2023-05-24T205320.934.jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Real Madrid player ratings vs Rayo Vallecano: Rodrygo wins it late as classy Karim Benzema gets back among the goals in Vinicius Jr absence',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Thomas Hindle',
     date: 'May 25, 2023'
@@ -83,7 +83,7 @@ export const recentnews = [{
     id: 3,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt25b6591e6642cb94/646dc5155a09d02fcab29cbf/GOAL_-_Multiple_Images_-_3_Stacked_-_Facebook_(10).jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Next Napoli manager: Julian Nagelsmann, Rafa Benitez and the candidates to replace Luciano Spalletti at the Serie A champions',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Mark Doyle',
     date: 'May 24, 2023'
@@ -91,7 +91,7 @@ export const recentnews = [{
     id: 4,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3b32b52ce3adce9d/646fcb236826b7d64bbd7633/Conor_Gallagher_Chelsea_2022-23_(4).jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Chelsea player ratings vs Man Utd: When will the embarrassment end? Kai Havertz and Mykhailo Mudryk flop again for abysmal Blues',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Tom Maston',
     date: 'May 24, 2023'
@@ -99,7 +99,7 @@ export const recentnews = [{
     id: 5,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt4c51a38545840151/646e2fb857fcc65cff9d8509/Granit_Xhaka_Arsenal_GFX.jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'From villain to hero: Granit Xhaka remarkable Arsenal remontada',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Charles Watts',
     date: 'May 24, 2023'
@@ -107,7 +107,7 @@ export const recentnews = [{
     id: 6,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2b241c69e719351c/646dfc727638340ae2b39734/GOAL_-_Multiple_Images_-_3_Stacked_-_Facebook_(11).jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Have Bayern Munich blown it? Replacing Julian Nagelsmann with Thomas Tuchel could be one of the worst managerial changes in Bundesliga history',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Mark Doyle',
     date: 'May 24, 2023'
@@ -115,7 +115,7 @@ export const recentnews = [{
     id: 7,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc27578b847774917/646ce0ee495dc3ae80653242/EPL_Manager_Ranked.jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Every Premier League manager in 2022-23, from Frank Lampard to Pep Guardiola - ranked',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: "Matt O'Connor-Simpson",
     date: 'May 24, 2023'
@@ -123,7 +123,7 @@ export const recentnews = [{
     id: 8,
     image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt24acf01de78051b2/646fe154c90d80286cad591f/Casemiro_Ten_Hag_Fernandez_GFX.jpg?auto=webp&format=pjpg&width=1080&quality=60',
     title: 'Man Utd are back where they belong! Winners and losers as Erik ten Hag clinches a top-four finish - but Chelsea looks miles off a Champions League return',
-    link: '/v1/detail',
+    link: '/sport-news/detail',
     type: 'recent',
     authoer: 'Richard Martin',
     date: 'May 24, 2023'

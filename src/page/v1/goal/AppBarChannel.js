@@ -15,7 +15,7 @@ const navigate = useNavigate();
         <img className='h-8 w-8 object-contain' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/320px-Goal-com_Logo.svg.png'/>
       </div>
       <div className="navbar-center shrink w-full">
-        <input type="text" className="block w-full rounded-lg border-0 py-1.5 pl-2 mr-2 pr-20 text-gray-900  placeholder:text-gray-400 sm:text-sm sm:leading-6 bg-gray-50 text-xs" placeholder="Search on goal" />
+        <input type="text" className="block w-full rounded-lg border-0 py-1.5 pl-2 mr-2 pr-20 text-gray-900  placeholder:text-gray-400 font-tight sm:leading-6 bg-gray-50 text-xs" placeholder="Search on goal" />
       </div>
       {/* <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
