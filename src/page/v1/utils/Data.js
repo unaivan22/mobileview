@@ -11,7 +11,7 @@ export const template = [{
   },{
     id: 3,
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/320px-Goal-com_Logo.svg.png',
-    link: '/goal',
+    link: '/v1/goal',
     type: 'hotnews'
   },{
     id: 4,
@@ -87,7 +87,96 @@ export const recentnews = [{
     type: 'recent',
     authoer: 'Mark Doyle',
     date: 'May 24, 2023'
+  },{
+    id: 4,
+    image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3b32b52ce3adce9d/646fcb236826b7d64bbd7633/Conor_Gallagher_Chelsea_2022-23_(4).jpg?auto=webp&format=pjpg&width=1080&quality=60',
+    title: 'Chelsea player ratings vs Man Utd: When will the embarrassment end? Kai Havertz and Mykhailo Mudryk flop again for abysmal Blues',
+    link: '/v1/detail',
+    type: 'recent',
+    authoer: 'Tom Maston',
+    date: 'May 24, 2023'
+  },{
+    id: 5,
+    image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt4c51a38545840151/646e2fb857fcc65cff9d8509/Granit_Xhaka_Arsenal_GFX.jpg?auto=webp&format=pjpg&width=1080&quality=60',
+    title: 'From villain to hero: Granit Xhaka remarkable Arsenal remontada',
+    link: '/v1/detail',
+    type: 'recent',
+    authoer: 'Charles Watts',
+    date: 'May 24, 2023'
+  },{
+    id: 6,
+    image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2b241c69e719351c/646dfc727638340ae2b39734/GOAL_-_Multiple_Images_-_3_Stacked_-_Facebook_(11).jpg?auto=webp&format=pjpg&width=1080&quality=60',
+    title: 'Have Bayern Munich blown it? Replacing Julian Nagelsmann with Thomas Tuchel could be one of the worst managerial changes in Bundesliga history',
+    link: '/v1/detail',
+    type: 'recent',
+    authoer: 'Mark Doyle',
+    date: 'May 24, 2023'
+  },{
+    id: 7,
+    image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc27578b847774917/646ce0ee495dc3ae80653242/EPL_Manager_Ranked.jpg?auto=webp&format=pjpg&width=1080&quality=60',
+    title: 'Every Premier League manager in 2022-23, from Frank Lampard to Pep Guardiola - ranked',
+    link: '/v1/detail',
+    type: 'recent',
+    authoer: "Matt O'Connor-Simpson",
+    date: 'May 24, 2023'
+  },{
+    id: 8,
+    image: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt24acf01de78051b2/646fe154c90d80286cad591f/Casemiro_Ten_Hag_Fernandez_GFX.jpg?auto=webp&format=pjpg&width=1080&quality=60',
+    title: 'Man Utd are back where they belong! Winners and losers as Erik ten Hag clinches a top-four finish - but Chelsea looks miles off a Champions League return',
+    link: '/v1/detail',
+    type: 'recent',
+    authoer: 'Richard Martin',
+    date: 'May 24, 2023'
   }
 ];
   
-  
+export const authornews = [{
+  id: 1,
+  image: 'https://randomuser.me/api/portraits/men/85.jpg',
+  describe: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  type: 'author',
+  name: 'Dymitar Addam'
+},{
+  id: 2,
+  image: 'https://randomuser.me/api/portraits/men/78.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Rob Dawson'
+},{
+  id: 3,
+  image: 'https://randomuser.me/api/portraits/men/89.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Krishan Davis'
+},{
+  id: 4,
+  image: 'https://randomuser.me/api/portraits/men/77.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Thomas Hindle'
+},{
+  id: 5,
+  image: 'https://randomuser.me/api/portraits/men/71.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Mark Doyle'
+},{
+  id: 6,
+  image: 'https://randomuser.me/api/portraits/men/74.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Tom Maston'
+},{
+  id: 7,
+  image: 'https://randomuser.me/api/portraits/men/72.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Charles Watts'
+},{
+  id: 8,
+  image: 'https://randomuser.me/api/portraits/women/3.jpg',
+  describe: 'lorem ',
+  type: 'author',
+  name: 'Helen Noah'
+}
+];

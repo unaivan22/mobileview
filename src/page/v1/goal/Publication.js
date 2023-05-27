@@ -1,8 +1,8 @@
 import React from 'react'
-import { recentnews } from './Data';
+import { recentnews } from '../utils/Data';
 import {Link} from "react-router-dom";
 
-export default function V1RecentNews() {
+export default function Publication() {
     const recents = recentnews.filter(getRecentnews =>
         getRecentnews.type === 'recent'
       );
