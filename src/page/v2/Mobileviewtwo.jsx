@@ -11,7 +11,7 @@ export default function Mobileviewtwo() {
           <div className='baseHome relative bg-white h-[712px] overflow-y-scroll overflow-x-hidden w-safearea mb-80'>
             
 
-            <div className='absolute bottom-12  place-items-center justify-center bg-white'>
+            <div className='absolute z-50 bottom-12  place-items-center justify-center bg-white'>
               <V2BottomNav />
             </div>
           </div>

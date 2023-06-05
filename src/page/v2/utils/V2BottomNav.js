@@ -1,11 +1,14 @@
 import React from 'react'
 import { Tab } from '@headlessui/react'
 import { Fragment } from 'react'
-import Jobs from './Jobs';
+import JobsMerger from './kerja/JobsMerger';
+import JobsSearchMerger from './search/JobsSearchMerger';
+import JobsSavedMerger from './saved/JobsSavedMerger';
+import JobsMessageMerger from './message/JobsMessageMerger';
 import { BiHomeAlt } from 'react-icons/bi';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BiBookmark } from 'react-icons/bi';
-import { MdOutlineAccountCircle } from 'react-icons/md';
+import { BiMessageSquareDots } from 'react-icons/bi';
 
 
 
@@ -16,18 +19,18 @@ export default function V2BottomNav() {
 
         <Tab.Panels>
             <Tab.Panel>
-             <Jobs />
+             <JobsMerger />
             </Tab.Panel>
             <Tab.Panel>
               <div>
-                {/* <Author /> */}
+                <JobsSearchMerger />
               </div>
             </Tab.Panel>
             <Tab.Panel>
-              {/* <Publication /> */}
+              <JobsSavedMerger />
             </Tab.Panel>
             <Tab.Panel>
-              {/* <Publication /> */}
+              <JobsMessageMerger />
             </Tab.Panel>
         </Tab.Panels>
 
@@ -79,8 +82,8 @@ export default function V2BottomNav() {
                     selected ? 'text-center flex flex-col items-center text-xs font-normal px-4 py-2 text-rose-500 rounded-xl bg-white' : 'text-center flex flex-col items-center text-xs font-normal px-4 py-2 text-zinc-400 rounded-xl bg-white'
                   }
                 >
-                    <MdOutlineAccountCircle fontSize="1.5em" />
-                  Account
+                    <BiMessageSquareDots fontSize="1.5em" />
+                  Message
                 </button>
               )}
             </Tab>
