@@ -8,7 +8,7 @@ export default function Mobileviewtwo() {
     <div>
       <Phone>
         <AnimatedPage>
-          <div className='baseHome relative bg-white h-[712px] overflow-y-scroll overflow-x-hidden w-safearea mb-80'>
+          <div className='font-inter baseHome relative bg-white h-[712px] overflow-y-scroll overflow-x-hidden w-safearea mb-80'>
             
 
             <div className='absolute z-50 bottom-12  place-items-center justify-center bg-white'>

@@ -9,7 +9,7 @@ const navigate = useNavigate();
   return (
     <Phone>
         <AnimatedPage>
-        <div className="navbar h-14 ">
+        <div className="navbar h-14 font-inter">
             <div className="navbar-start">
                 <div>
                 <label tabIndex={0} className="btn btn-ghost btn-circle" onClick={() => navigate(-1)} >
@@ -37,7 +37,7 @@ const navigate = useNavigate();
             </div>
         </div>
 
-        <section className='overflow-y-scroll relative h-[515px]'>
+        <section className='overflow-y-scroll relative h-[515px] font-inter'>
             <div className='mx-4'>
                 <img className='w-14 h-14 mb-1' src='https://www.freepnglogos.com/uploads/logo-tokopedia-png/berita-tokopedia-info-berita-terbaru-tokopedia-6.png' />
                 <p className='text-md font-bold text-black'>Product Designer</p>
@@ -98,7 +98,10 @@ const navigate = useNavigate();
                     <p className="badge badge- text-xs bg-white text-zinc-400 border border-zinc-300">User</p> */}
                 </div>
             </div>
-            <div className='fixed bottom-6 bg-white w-[296px] mx-4 pt-4 pb-3 rounded-full'>
+            
+        </section>
+        <section className='font-inter'>
+        <div className='bg-white w-[296px] mx-4 pt-4 pb-3 rounded-full'>
                 <button className="btn w-full rounded-full text-white font-bold">Apply</button>
             </div>
         </section>
