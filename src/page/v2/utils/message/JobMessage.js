@@ -15,7 +15,7 @@ export default function JobMessage() {
                 </div>
                 <div className='col-span-4'>
                     <div className='flex flex-row justify-between items-center'>
-                        <h1 className='text-md text-zinc-900'>{getRecentMessage.Name}</h1>
+                        <h1 className='text-sm text-zinc-900'>{getRecentMessage.Name}</h1>
                         <p className='text-xs text-zinc-500'>{getRecentMessage.date}</p>
                     </div>
                     <p className='text-xs text-zinc-500 line-clamp-2'>{getRecentMessage.summary}</p>

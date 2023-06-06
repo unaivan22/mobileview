@@ -8,7 +8,7 @@ export default function HeaderJobs() {
       </div>
       <div className="flex-none">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-8 rounded-full">
+            <div className="w-7 rounded-full">
               <img src="https://cdn.dribbble.com/users/2709992/avatars/normal/05c91f30e811ac4779f7965831a52047.jpeg?1675666824" />
             </div>
           </label>

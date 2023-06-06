@@ -6,6 +6,7 @@ import Mobileviewtwo from './v2/Mobileviewtwo'
 import V1Detail from './v1/utils/V1Detail'
 import Channel from './v1/goal/Channel'
 import NotFound from '../utils/phone/NotFound'
+import JobDetails from './v2/utils/kerja/JobDetails'
 
 export default function RouterPage() {
   return (
@@ -17,6 +18,7 @@ export default function RouterPage() {
             <Route path='/sport-news/goal' element={<Channel/>} />
 
             <Route path='/jobs' element={<Mobileviewtwo/>} />
+            <Route path='/jobs/details' element={<JobDetails/>} />
 
             <Route path='*' element={<NotFound/>} />
 
