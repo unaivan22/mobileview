@@ -98,7 +98,7 @@ const navigate = useNavigate();
                     <p className="badge badge- text-xs bg-white text-zinc-400 border border-zinc-300">User</p> */}
                 </div>
             </div>
-            <div className='fixed bottom-16 bg-white w-[296px] mx-4 pt-4 pb-3 rounded-full'>
+            <div className='fixed bottom-6 bg-white w-[296px] mx-4 pt-4 pb-3 rounded-full'>
                 <button className="btn w-full rounded-full text-white font-bold">Apply</button>
             </div>
         </section>
