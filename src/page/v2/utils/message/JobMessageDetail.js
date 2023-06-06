@@ -4,7 +4,7 @@ import Phone from '../../../../utils/phone/Phone';
 import AnimatedPage from '../../../../utils/AnimatedPage';
 
 
-export default function JobDetails() {
+export default function JobMessageDetail() {
 const navigate = useNavigate();
   return (
     <Phone>
@@ -20,10 +20,10 @@ const navigate = useNavigate();
                 </div>
             </div>
             <div className="navbar-center flex flex-col">
-                <h3 className="normal-case text-sm font-semibold text-zinc-700">Product Designer</h3>
-                <p className="normal-case text-xs font-normal text-zinc-500">Tokopedia</p>
+                <h3 className="normal-case text-sm font-semibold text-zinc-700">Camelia Eduardo</h3>
+                {/* <p className="normal-case text-xs font-normal text-zinc-500">Tokopedia</p> */}
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end invisible">
                 <button className="btn btn-ghost btn-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                     <path stroke-linecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />

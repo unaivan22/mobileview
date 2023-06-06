@@ -14,7 +14,7 @@ export default function JobSearched() {
                     <img className='h-4 aspect-square object-cover rounded-xl col-span-1 my-1' src={getRecentJob.image} />
                     <p className='text-xs'>{getRecentJob.company}</p>
                 </div>
-                <p className='line-clamp-2 font-bold text-sm text-zinc-900 mb-2'>{getRecentJob.title}</p>
+                <p className='line-clamp-2 font-medium  text-sm text-zinc-900 mb-2'>{getRecentJob.title}</p>
                 <div className='flex flex-row justify-between'>
                     <div className='flex'>
                         <p className='text-zinc-400 text-xs mt-1 mr-1 capitalize'>{getRecentJob.type} - </p>
