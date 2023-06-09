@@ -1,0 +1,91 @@
+[
+   {
+    "id": 1,
+    "image": "https://www.freepnglogos.com/uploads/logo-tokopedia-png/berita-tokopedia-info-berita-terbaru-tokopedia-6.png",
+    "link": "/jobs/details",
+    "title": "Product Designer",
+    "company": "Tokopedia",
+    "address": "Jakarta",
+    "work": "Onsite",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 2,
+    "image": "https://secure.gravatar.com/avatar/b0d29c5ff6dc63b54d8400b1481dc3f8?s=500&d=identicon&r=g",
+    "link": "/jobs/details",
+    "title": "Product Designer",
+    "company": "Quipper",
+    "address": "Jakarta",
+    "work": "Hybird",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 3,
+    "image": "https://play-lh.googleusercontent.com/5xkYQyfqxUK1euEZ3J9qAAVMWM3pXBZF1RKbnnnq1vcy3W5v5OHs-oU8NM4gZ04ykA",
+    "link": "/jobs/details",
+    "title": "Sr. Product Designer",
+    "company": "Majoo",
+    "address": "Malang",
+    "work": "Remote",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 4,
+    "image": "https://efishery.com/wp-content/uploads/2021/11/download-5.png",
+    "link": "/jobs/details",
+    "title": "Sr. Product Designer",
+    "company": "eFishery",
+    "address": "Surabaya",
+    "work": "Remote",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 5,
+    "image": "https://companieslogo.com/img/orig/BUKA.JK-25d1a629.png?t=1651810819",
+    "link": "/jobs/details",
+    "title": "Sr. Product Designer",
+    "company": "Bukalapak",
+    "address": "Jakarta",
+    "work": "Remote",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 6,
+    "image": "https://1000logos.net/wp-content/uploads/2022/08/JT-Express-Logo.png",
+    "link": "/jobs/details",
+    "title": "Sr. Product Designer",
+    "company": "JnT",
+    "address": "Malang",
+    "work": "Remote",
+    "date": "2 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 7,
+    "image": "https://play-lh.googleusercontent.com/34wDXhYDIGpwPMjBOaMS9nr0mUHySyLHxndm8NTTZHhFV17yxRVC8JrDfK5ZQfI-gtA",
+    "link": "/jobs/details",
+    "title": "Lead Product Designer",
+    "company": "Riliv",
+    "address": "Surabaya",
+    "work": "Remote",
+    "date": "3 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  },{
+    "id": 8,
+    "image": "https://asset.tix.id/wp-content/uploads/2022/05/TIXID_app_icon.png",
+    "link": "/jobs/details",
+    "title": "Product Engineer",
+    "company": "TIX ID",
+    "address": "Semarang",
+    "work": "Onsite",
+    "date": "4 Hours Ago",
+    "type": "fulltime",
+    "filter": "job"
+  }
+]

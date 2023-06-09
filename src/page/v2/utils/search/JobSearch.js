@@ -1,6 +1,15 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
 export default function JobSearch() {
+
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/jobs/search`; 
+    navigate(path);
+  }
+
+
   return (
     <div >
         <section className='mb-4'>
@@ -10,7 +19,7 @@ export default function JobSearch() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                 </svg>
                 </div>
-                <input type="text" name="price" id="price" className="block w-full rounded-lg border-0 py-1.5 pl-8 pr-20 text-gray-900  placeholder:text-gray-400 focus:ring-inset sm:text-sm sm:leading-6 bg-gray-50 text-xs" placeholder="Search" />
+                <input onClick={routeChange} type="text" name="price" id="price" className="block w-full rounded-lg border-0 py-1.5 pl-8 pr-20 text-gray-900  placeholder:text-gray-400 focus:ring-inset sm:text-sm sm:leading-6 bg-gray-50 text-xs" placeholder="Search" />
             </div>
         </section>
         <div className='border-b border-zinc-100'></div>

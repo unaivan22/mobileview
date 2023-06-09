@@ -8,6 +8,7 @@ import Channel from './v1/goal/Channel'
 import NotFound from '../utils/phone/NotFound'
 import JobDetails from './v2/utils/kerja/JobDetails'
 import JobMessageDetail from './v2/utils/message/JobMessageDetail'
+import FullSearch from './v2/utils/search/FullSearch'
 
 export default function RouterPage() {
   return (
@@ -21,6 +22,7 @@ export default function RouterPage() {
             <Route path='/jobs' element={<Mobileviewtwo/>} />
             <Route path='/jobs/details' element={<JobDetails/>} />
             <Route path='/jobs/messages/detail' element={<JobMessageDetail/>} />
+            <Route path='/jobs/search' element={<FullSearch/>} />
 
             <Route path='*' element={<NotFound/>} />
 
